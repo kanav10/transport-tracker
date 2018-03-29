@@ -1,0 +1,27 @@
+<!-- <div *ngIf="afAuth.authState | async as user; else showLogin">
+  <h1>Hello {{user.displayName}}</h1>
+  <button (click)="logout()">Logout</button>
+</div>
+<ng-template #showLogin>
+  <p>Please login.</p>
+  <button (click)="login()">Login with google</button>
+</ng-template>  -->
+<div class="background-img">
+  <div class="row sign-in-text">
+    <div class="col-xs-4 col-xs-offset-4 text-center">
+      <div class="panel my-panel">
+        <div class="panel-header">
+          Sign In
+        </div>
+        <div class="panel-body">
+          <div clas="row">
+            <div class="col-xs-12 text-center add-padding">
+              <button type="button" class="btn btn-primary btn-login" (click)="login()">Sign in with Google</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

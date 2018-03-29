@@ -5,5 +5,14 @@
 
 export const environment = {
   production: false,
-  MAPBOX_API_KEY: 'pk.eyJ1Ijoia2FuYXZtYWxpazEwIiwiYSI6ImNqZmJrMDl0dTJ2NzIzM3BlanV5NmJpcjQifQ.DJnq4rBtCtm5-FQm_mlflQ'
+  MAPBOX_API_KEY: 'pk.eyJ1Ijoia2FuYXZtYWxpazEwIiwiYSI6ImNqZmJrMDl0dTJ2NzIzM3BlanV5NmJpcjQifQ.DJnq4rBtCtm5-FQm_mlflQ',
+  firebase: {
+      apiKey: 'AIzaSyAH5w6VTn-POUl1hQNdfNEuhlT8Gq-_zSo',
+      authDomain: 'bus-tracker-b8f9d.firebaseapp.com',
+      databaseURL: 'https://bus-tracker-b8f9d.firebaseio.com',
+      projectId: 'bus-tracker-b8f9d',
+      storageBucket: '',
+      messagingSenderId: '324202968430'
+    // firebase.initializeApp(config);
+  }
 };

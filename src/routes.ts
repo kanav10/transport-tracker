@@ -7,6 +7,6 @@ export const appRoutes: Routes = [
     {path: 'runs', component: ActivityListComponent},
     {path: 'run/:id', component: MapComponent },
     {path: 'login', component: LoginComponent},
-    {path: '', redirectTo: '/runs', pathMatch: 'full'}
+    {path: '', redirectTo: '/login', pathMatch: 'full'}
 
 ];

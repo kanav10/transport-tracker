@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { AngularFireAuth } from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
-
+import { Router } from '@angular/router';
+ 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -9,9 +10,11 @@ import * as firebase from 'firebase/app';
 })
 export class LoginComponent {
 
-  constructor(public afAuth: AngularFireAuth) { }
+  constructor(public afAuth: AngularFireAuth, private router: Router) { }
   login() {
-    this.afAuth.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+    this.afAuth.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).then((sucess) => {
+      this.router.navigate(['/runs']);
+    });
   }
   logout() {
     this.afAuth.auth.signOut();

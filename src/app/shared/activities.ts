@@ -6,7 +6,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
     'name' : 'bus route 1',
     'date' : new Date('06/01/2017'),
     'distance' : 21,
-    'comments': 'chandigarh to punchkkula',
+    'comments': 'chandigarh to punchkula',
     'gpxData' : '../../assets/gpx/3.gpx',
 
 },
@@ -14,8 +14,8 @@ export const SAVED_ACTIVITIES: IActivity[] = [
     'id' : 2,
     'name' : 'Bus route 2',
     'date' : new Date('07/01/2017'),
-    'distance' : 100,
-    'comments': 'okay',
+    'distance' : 35,
+    'comments': 'chandigarh to Banur',
     'gpxData' : '../../assets/gpx/2.gpx',
 
 },
@@ -23,7 +23,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
     'id' : 3,
     'name' : 'bus route 3',
     'date' : new Date('08/01/2017'),
-    'distance' : 250,
+    'distance' : 80,
     'comments': 'chandigarh to punchkula',
     'gpxData' : '../../assets/gpx/3.gpx',
 
@@ -32,8 +32,8 @@ export const SAVED_ACTIVITIES: IActivity[] = [
     'id' : 4,
     'name' : 'bus route 4',
     'date' : new Date('09/01/2017'),
-    'distance' : 15,
-    'comments': 'really cool',
+    'distance' : 28,
+    'comments': 'chandigarh to mohali',
     'gpxData' : '../../assets/gpx/2.gpx',
 
 }
